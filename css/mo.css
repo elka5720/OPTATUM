@@ -46,7 +46,7 @@
         opacity: 0.5;
         position: absolute;
         top: 43px;
-        left: 45px;
+        left: 35px;
         z-index: 5;
     }
     
@@ -131,7 +131,10 @@
         width: 100%;
         font-size: 10px;
         color: #464646;
-        margin-top: 150px;
+        /*margin-top: 150px;*/
+        position: absolute;
+        bottom: 30px;
+        left: 0;
     }
     
     /*section ----------*/
@@ -150,10 +153,10 @@
     
     #in-menu-wrap {
         width: 100%;
-        height: 700px;
+        height: 500px;
         position: absolute;
         top: 50%;
-        margin-top: -290px;
+        margin-top: -250px;
         text-align: center;
         font-family: 'Khand';
     }
@@ -172,8 +175,8 @@
     
     .menu-title {
         width: 200px;
-        height: 80px;
-        font: 800 35px/80px 'Khand';
+        height: 65px;
+        font: 800 35px/65px 'Khand';
         margin: 0 auto;
     }
     
@@ -185,8 +188,8 @@
     
     .menu-project {
         width: 250px;
-        height: 56px;
-        font: 17px/56px 'Khand';
+        height: 46px;
+        font: 17px/46px 'Khand';
         margin: 0 auto;
     }
     
