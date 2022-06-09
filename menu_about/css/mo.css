@@ -35,19 +35,19 @@
     }
     
     #menu-btn {
-        width: 35px;
+        width: 40px;
         height: 23px;
         position: absolute;
-        top: 42px;
+        top: 37px;
         left: 50%;
-        margin-left: -17.5px;
+        margin-left: -20px;
         cursor: pointer;
     }
     
     #menu-btn li {
         width: 100%;
         height: 10px;
-        border-top: 1px solid #c4c4c4;
+        border-top: 1px solid #868686;
         box-sizing: border-box;
         transition-duration: 0.5s;
     }
@@ -55,8 +55,8 @@
     #header-left {
         width: 80px;
         position: relative;
-        top: 37px;
-        left: 45px;
+        top: 36px;
+        left: 35px;
         z-index: 5;
     }
     
@@ -70,7 +70,7 @@
     
     #title {
         font-family: 'Khand';
-        font-size: 22px;
+        font-size: 18px;
         color: #d8d8d8;
         opacity: 0.4;
     }
@@ -157,7 +157,7 @@
     
     
     #section-2 {
-        height: 4200px;
+        height: 3880px;
         margin-top: 200px;
     }
     
@@ -171,12 +171,12 @@
     
     #sc2-img-wrap {
         width: 100%;
-        height: 3900px;
+        height: 3600px;
     }
     
     .sc2-con-wrap {
         width: 100%;
-        height: 380px;
+        height: 350px;
     }
     
     .sc2-con-left {
@@ -193,7 +193,7 @@
     
     .student-img {
         width: 100%;
-        height: 260px;
+        height: 240px;
         background-color: #adadad;
     }
     
@@ -228,7 +228,7 @@
     
     
     #section-3 {
-        height: 720px;
+        height: 630px;
     }
     
     #sc3-title {
@@ -236,20 +236,20 @@
         height: 50px;
         text-align: center;
         font: 16px/50px '';
-        margin-bottom: 60px;
+        margin-bottom: 50px;
     }
     
     .sc3-prof {
         width: 100%;
-        height: 100px;
+        height: 70px;
         text-align: center;
         margin-bottom: 20px;
     }
     
     .class {
         width: 100%;
-        height: 50px;
-        font: 600 21px/50px 'Khand';
+        height: 35px;
+        font: 300 20px/35px 'Khand';
         color: #a7a7a7;
     }
     
@@ -263,7 +263,7 @@
     
     #in-footer {
         font-size: 10px;
-        margin-top: 90px;
+        margin-top: 50px;
         color: #464646;
         margin: 0 auto;
         text-align: center;
