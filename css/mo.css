@@ -27,7 +27,7 @@
         width: 40px;
         height: 23px;
         position: absolute;
-        top: 37px;
+        top: 44px;
         left: 50%;
         margin-left: -20px;
         cursor: pointer;
@@ -43,9 +43,9 @@
     
     #logo {
         width: 23px;
-        opacity: 30%;
+        opacity: 40%;
         position: absolute;
-        top: 38px;
+        top: 45px;
         left: 35px;
         z-index: 5;
     }
@@ -80,9 +80,10 @@
     #main-txt-tab {
         width: 400px;
         height: 700px;
-        margin: 120px auto 0 auto;
+        margin: 110px auto 0 auto;
         color: #b1b1b1;
         text-align: center;
+        /*background-color: cornflowerblue;*/
     }
     
     .txt-tab {
@@ -137,6 +138,15 @@
         left: 0;
     }
     
+    #in-footer {
+        font-size: 10px;
+        margin-top: 50px;
+        color: #464646;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
     /*section ----------*/
     
     
@@ -156,7 +166,7 @@
         height: 500px;
         position: absolute;
         top: 50%;
-        margin-top: -290px;
+        margin-top: -270px;
         text-align: center;
         font-family: 'Khand';
     }
