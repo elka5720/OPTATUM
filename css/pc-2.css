@@ -1,4 +1,4 @@
-@media all and (max-width: 999px) and (min-width: 650px) {
+@media all and (max-width: 1299px) and (min-width: 1000px) {
     
     
     /*공통영역*/
@@ -46,7 +46,7 @@
         opacity: 0.8;
         position: absolute;
         top: 57px;
-        left: 55px;
+        left: 85px;
         z-index: 5;
     }
     
@@ -152,11 +152,11 @@
     
     #in-menu-wrap {
         width: 500px;
-        height: 700px;
+        height: 600px;
         position: absolute;
         top: 50%;
         left: 50%;
-        margin-top: -310px;
+        margin-top: -280px;
         margin-left: -250px;
         text-align: center;
         font-family: 'Khand';
@@ -176,22 +176,22 @@
     
     .menu-title {
         width: 200px;
-        height: 80px;
-        font: 800 48px/80px 'Khand';
+        height: 65px;
+        font: 800 40px/65px 'Khand';
         margin: 0 auto;
     }
     
     #menu-pro {
         width: 100%;
-        height: 120px;
-        font: 800 95px/120px 'Khand';
-        margin-bottom: 20px;
+        height: 110px;
+        font: 800 82px/110px 'Khand';
+        margin-bottom: 5px;
     }
     
     .menu-project {
         width: 250px;
         height: 56px;
-        font: 23px/56px 'Khand';
+        font: 21px/56px 'Khand';
         margin: 0 auto;
     }
     
@@ -246,4 +246,4 @@
     
     
     
-} /*main_tab end*/
+} /*main_pc-2 end*/
