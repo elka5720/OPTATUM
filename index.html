@@ -1,30 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Bit </title>
-    
-    <link href="css/reset.css" type="text/css" rel="stylesheet">
-    <link href="css/pc.css" type="text/css" rel="stylesheet">
-    <link href="css/pc-2.css" type="text/css" rel="stylesheet">
-    <link href="css/tab.css" type="text/css" rel="stylesheet">
-    <link href="css/mo.css" type="text/css" rel="stylesheet">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600&display=swap" rel="stylesheet">
-    
-    <script src="jq/jquery-3.5.1.min.js"></script>
-    <script src="jq/event.js"></script>
-    
-</head>
-<body>
+<!doctype html>
 
-    <div id="wrap">
+<html>
+	<head>
+		<title> Web Design Studio </title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0">
+		
+		<link href="css/reset.css" type="text/css" rel="stylesheet">
+		<link href="css/pc.css" type="text/css" rel="stylesheet">
+		<link href="css/pc-2.css" type="text/css" rel="stylesheet">
+		<link href="css/tab.css" type="text/css" rel="stylesheet">
+		<link href="css/mo.css" type="text/css" rel="stylesheet">
+		<link href="css/img.css" type="text/css" rel="stylesheet">
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600&display=swap" rel="stylesheet">
+        
+        <script src="jq/jquery-3.5.1.min.js"></script>
+        <script src="jq/event.js"></script>
+		
+	</head>
 
-        <header>
+	<body>
+	
+	<div id="wrap">
+	    
+	    <header>
             <ul id="menu-btn">
                 <li id="menu-btn-1"></li>
                 <li id="menu-btn-2"></li>
@@ -32,62 +34,270 @@
             </ul>
         </header>
         
-        <img id="logo" src="img/symbol.png" alt=""/>
+        <div id="header-left">
+            <img id="logo" src="img/header/Bit_logo.png" alt=""/>
+            <div id="header-left-txt"> DCD 23rd Graduation Exhibition </div>
+            <div id="header-left-line"></div>
+            <div id="title"> Web Design Studio </div>
+        </div>
+        
+        <!--header end-->
+        
         
         <section>
-           
-            <div id="main-img"></div>
-            <div id="main-mo-img"></div>
-            <div id="main-txt-img"></div>
-            
-            <div id="main-txt-tab">
-                <div class="txt-tab"> 울산대학교 디지털콘텐츠 디자인 </div>
-                <div class="txt-tab"> 제 23회 졸업 전시회 </div>
-                <ul id="dot-wrap-tab">
+            <div class="container">
+                <ul id="sc-title">
                     <li></li>
                     <li></li>
                     <li></li>
                 </ul>
-                <div class="info-tab">
-                    <div class="info-top"> 오프라인 전시 </div>
-                    <div class="info-bottom"> 2022.10.31. - 11.06. </div>
+                <div id="project-wrap">
+                    <ul class="project-con">
+                        <li class="project">
+                            <a href="project/student_1/index.html">
+                                <div class="pro-img" id="web-1"></div>
+                                <div class="pro-name"><a href="#"> <span>1. 강지혜</span> | 폭풍이 멈추는 때 </a></div>
+                            </a>
+                        </li>
+                        <li class="project">
+                            <a href="project/student_2/index.html">
+                                <div class="pro-img"  id="web-2"></div>
+                                <div class="pro-name"><a href="#"> <span>2. 김성민</span> | cataract </a></div>
+                            </a>
+                        </li>
+                        <li class="project project-last">
+                            <a href="project/student_3/index.html">
+                                <div class="pro-img" id="web-3"></div>
+                                <div class="pro-name"><a href="#"> <span>3. 김소은</span> | 한옥, 지붕 </a></div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="project-con">
+                        <li class="project">
+                            <a href="project/student_4/index.html">
+                                <div class="pro-img" id="web-4"></div>
+                                <div class="pro-name"><a href="#"> <span>4. 김수연</span> | pollen </a></div>
+                            </a>
+                        </li>
+                        <li class="project">
+                            <a href="project/student_5/index.html">
+                                <div class="pro-img" id="web-5"></div>
+                                <div class="pro-name"><a href="#"> <span>5. 김은빈</span> | DreamHunter </a></div>
+                            </a>
+                        </li>
+                        <li class="project project-last">
+                            <a href="project/student_6/index.html">
+                                <div class="pro-img" id="web-6"></div>
+                                <div class="pro-name"><a href="#"> <span>6. 김하예</span> | 삼초밥(SAMCHOBAP) </a></div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="project-con">
+                        <li class="project">
+                            <a href="project/student_7/index.html">
+                                <div class="pro-img" id="web-7"></div>
+                                <div class="pro-name"><a href="#"> <span>7. 김효민</span> | 작품명 </a></div>
+                            </a>
+                        </li>
+                        <li class="project">
+                            <a href="project/student_8/index.html">
+                                <div class="pro-img" id="web-8"></div>
+                                <div class="pro-name"><a href="#"> <span>8. 박미현</span> | travel </a></div>
+                            </a>
+                        </li>
+                        <li class="project project-last">
+                            <a href="project/student_9/index.html">
+                                <div class="pro-img" id="web-9"></div>
+                                <div class="pro-name"><a href="#"> <span>9. 변지원</span> | Ancient </a></div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="project-con">
+                        <li class="project">
+                            <a href="project/student_10/index.html">
+                                <div class="pro-img" id="web-10"></div>
+                                <div class="pro-name"><a href="#"> <span>10. 설용</span> | W&amp;P </a></div>
+                            </a>
+                        </li>
+                        <li class="project">
+                            <a href="project/student_11/index.html">
+                                <div class="pro-img" id="web-11"></div>
+                                <div class="pro-name"><a href="#"> <span>11. 손효지</span> | 망고쿠키 </a></div>
+                            </a>
+                        </li>
+                        <li class="project project-last">
+                            <a href="project/student_12/index.html">
+                                <div class="pro-img" id="web-12"></div>
+                                <div class="pro-name"><a href="#"> <span>12. 이윤지</span> | color weakness </a></div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="project-con">
+                        <li class="project">
+                            <a href="project/student_13/index.html">
+                                <div class="pro-img" id="web-13"></div>
+                                <div class="pro-name"><a href="#"> <span>13. 이정희</span> | are still unknown </a></div>
+                            </a>
+                        </li>
+                        <li class="project">
+                            <a href="project/student_14/index.html">
+                                <div class="pro-img" id="web-14"></div>
+                                <div class="pro-name"><a href="#"> <span>14. 이지원 조근영</span> | Bit </a></div>
+                            </a>
+                        </li>
+                        <li class="project project-last">
+                            <a href="project/student_15/index.html">
+                                <div class="pro-img" id="web-15"></div>
+                                <div class="pro-name"><a href="#"> <span>15. 이화정</span> | arva 전시회 </a></div>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="info-tab">
-                    <div class="info-top"> 홈페이지 오픈 기간 </div>
-                    <div class="info-bottom"> ~2024.03. </div>
+                
+                <div id="project-wrap-tab">
+                    <ul class="project-con">
+                        <li class="project">
+                            <a href="project/student_1/index.html">
+                                <div class="pro-img" id="web-1"></div>
+                                <div class="pro-name"><a href="#"> <span>1. 강지혜</span> | 폭풍이 멈추는 때 </a></div>
+                            </a>
+                        </li>
+                        <li class="project project-last">
+                            <a href="project/student_2/index.html">
+                                <div class="pro-img" id="web-2"></div>
+                                <div class="pro-name"><a href="#"> <span>2. 김성민</span> | cataract </a></div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="project-con">
+                        <li class="project">
+                            <a href="project/student_3/index.html">
+                                <div class="pro-img" id="web-3"></div>
+                                <div class="pro-name"><a href="#"> <span>3. 김소은</span> | 한옥, 지붕 </a></div>
+                            </a>
+                        </li>
+                        <li class="project project-last">
+                            <a href="project/student_4/index.html">
+                                <div class="pro-img" id="web-4"></div>
+                                <div class="pro-name"><a href="#"> <span>4. 김수연</span> | pollen </a></div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="project-con">
+                        <li class="project">
+                            <a href="project/student_5/index.html">
+                                <div class="pro-img" id="web-5"></div>
+                                <div class="pro-name"><a href="#"> <span>5. 김은빈</span> | DreamHunter </a></div>
+                            </a>
+                        </li>
+                        <li class="project project-last">
+                            <a href="project/student_6/index.html">
+                                <div class="pro-img" id="web-6"></div>
+                                <div class="pro-name"><a href="#"> <span>6. 김하예</span> | 삼초밥(SAMCHOBAP) </a></div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="project-con">
+                        <li class="project">
+                            <a href="project/student_7/index.html">
+                                <div class="pro-img" id="web-7"></div>
+                                <div class="pro-name"><a href="#"> <span>7. 김효민</span> | 작품명 </a></div>
+                            </a>
+                        </li>
+                        <li class="project project-last">
+                            <a href="project/student_8/index.html">
+                                <div class="pro-img" id="web-8"></div>
+                                <div class="pro-name"><a href="#"> <span>8. 박미현</span> | travel </a></div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="project-con">
+                        <li class="project">
+                            <a href="project/student_9/index.html">
+                                <div class="pro-img" id="web-9"></div>
+                                <div class="pro-name"><a href="#"> <span>9. 변지원</span> | Ancient </a></div>
+                            </a>
+                        </li>
+                        <li class="project project-last">
+                            <a href="project/student_10/index.html">
+                                <div class="pro-img" id="web-10"></div>
+                                <div class="pro-name"><a href="#"> <span>10. 설용</span> | W&amp;P </a></div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="project-con">
+                        <li class="project">
+                            <a href="project/student_11/index.html">
+                                <div class="pro-img" id="web-11"></div>
+                                <div class="pro-name"><a href="#"> <span>11. 손효지</span> | 망고쿠키 </a></div>
+                            </a>
+                        </li>
+                        <li class="project project-last">
+                            <a href="project/student_12/index.html">
+                                <div class="pro-img" id="web-12"></div>
+                                <div class="pro-name"><a href="#"> <span>12. 이윤지</span> | color weakness </a></div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="project-con">
+                        <li class="project">
+                            <a href="project/student_13/index.html">
+                                <div class="pro-img" id="web-13"></div>
+                                <div class="pro-name"><a href="#"> <span>13. 이정희</span> | are still unknown </a></div>
+                            </a>
+                        </li>
+                        <li class="project project-last">
+                            <a href="project/student_14/index.html">
+                                <div class="pro-img" id="web-14"></div>
+                                <div class="pro-name"><a href="#"> <span>14. 이지원 조근영</span> | Bit </a></div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="project-con">
+                        <li class="project">
+                            <a href="project/student_15/index.html">
+                                <div class="pro-img" id="web-15"></div>
+                                <div class="pro-name"><a href="#"> <span>15. 이화정</span> | arva 전시회 </a></div>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <div id="copyright">
-                    Copyrightⓒ 2022. Allrights reserved by Lee Jiwon &#38; Cho Geunyeong <br/> Dept, of Digital contents design. University of Ulsan.
-                </div>
+                
             </div>
-            
         </section>
+        
         <!--section end-->
+        
+        
+        <footer>
+            <div id="in-footer">
+                Copyrightⓒ 2022. Allrights reserved by Lee Jiwon &#38; Cho Geunyeong <br/> Dept, of Digital contents design. University of Ulsan.
+            </div>
+        </footer>
+        <!--footer end-->
         
         
         <div id="menu-wrap">
             <ul id="in-menu-wrap">
-                <li class="menu-title"><a href="index.html" id="menu-a"> Home </a></li>
+                <li class="menu-title"><a href="../index.html" id="menu-a"> Home </a></li>
                 <li class="menu-line"></li>
                 <li id="menu-pro"> Project </li>
-                <li class="menu-project"><a href="pjct_animation/index.html"> Moving Image Animation </a> <div class="menu-hover-line"></div> </li>
-                <li class="menu-project"><a href="pjct_multimedia/index.html"> Multi Media Design </a> <div class="menu-hover-line"></div> </li>
-                <li class="menu-project"><a href="pjct_interactive/index.html"> Interactive Design </a> <div class="menu-hover-line"></div> </li>
-                <li class="menu-project"><a href="pjct_web/index.html"> Web Design Studio </a> <div class="menu-hover-line"></div> </li>
+                <li class="menu-project"><a href="../pjct_animation/index.html"> Moving Image Animation </a> <div class="menu-hover-line"></div> </li>
+                <li class="menu-project"><a href="../pjct_multimedia/index.html"> Multi Media Design </a> <div class="menu-hover-line"></div> </li>
+                <li class="menu-project"><a href="../pjct_interactive/index.html"> Interactive Design </a> <div class="menu-hover-line"></div> </li>
+                <li class="menu-project"><a href="../pjct_web/index.html"> Web Design Studio </a> <div class="menu-hover-line"></div> </li>
                 <li class="menu-line"></li>
-                <li class="menu-title"><a href="menu_graduate/index.html" id="menu-a"> Graduate </a></li>
+                <li class="menu-title"><a href="../menu_graduate/index.html" id="menu-a"> Graduate </a></li>
                 <li class="menu-line"></li>
-                <li class="menu-title"><a href="menu_about/index.html" id="menu-a"> About </a></li>
+                <li class="menu-title"><a href="../menu_about/index.html" id="menu-a"> About </a></li>
             </ul>
         </div>
         <!--menu end-->
+	    
+	</div>
 
-    </div>
-    
-</body>
+	</body>
 </html>
-
-
 
 
 
