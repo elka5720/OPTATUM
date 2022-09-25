@@ -42,7 +42,7 @@
     }
     
     #logo {
-        width: 35px;
+        width: 57px;
         opacity: 0.8;
         position: absolute;
         top: 57px;
@@ -73,288 +73,17 @@
         opacity: 0.5;
     }
     
-    #dot-wrap {
-        width: 720px;
-        height: 650px;
-        /*border: 2px solid #fff;*/
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-top: -305px;
-        margin-left: -370px;
-    }
-    
-    .dot {
+    #main-txt-img {
         width: 100%;
-        height: 100%;
-        /*border: 1px solid #ff55de;*/
-    }
-    
-    #dot-1 {
-        position: relative;
-        /*display: none;*/
-    }
-    
-    #dot-2 {
-        position: relative;
-        display: none;
-    }
-    
-    #dot-3 {
-        position: relative;
-        display: none;
-    }
-    
-    .dot-1-cl {
-        width: 260px;
-        height: 100px;
-        /*border: 1px solid #c4ae00;*/
+        height: 100vh;
+        background-image: url(../img/txt.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
         position: absolute;
+        top: 0;
+        left: 0;
     }
-    
-    #dot-1-1 {
-        top: -40px;
-        left: 148px;
-    }
-    
-    #dot-1-2 {
-        top: 34px;
-        left: 351px;
-    }
-    
-    #dot-1-3 {
-        top: 10px;
-        right: -150px;
-    }
-    
-    #dot-1-4 {
-        top: 150px;
-        left: 0px;
-    }
-    
-    #dot-1-5 {
-        top: 200px;
-        left: 270px;
-    }
-    
-    #dot-1-6 {
-        top: 150px;
-        right: -90px;
-    }
-    
-    #dot-1-7 {
-        top: 330px;
-        left: 95px;
-    }
-    
-    #dot-1-8 {
-        top: 288px;
-        left: 422px;
-    }
-    
-    #dot-1-9 {
-        top: 350px;
-        right: -120px
-    }
-    
-    #dot-1-10 {
-        bottom: 30px;
-        left: 180px;
-    }
-    
-    #dot-1-11 {
-        bottom: 130px;
-        left: 321px;
-    }
-    
-    /*----*/
-    
-    #dot-2-1 {
-        top: 0px;
-        left: 118px;
-    }
-    
-    #dot-2-2 {
-        top: -60px;
-        left: 361px;
-    }
-    
-    #dot-2-3 {
-        top: 30px;
-        right: -130px;
-    }
-    
-    #dot-2-4 {
-        top: 150px;
-        left: 5px;
-    }
-    
-    #dot-2-5 {
-        top: 100px;
-        left: 320px;
-    }
-    
-    #dot-2-6 {
-        top: 180px;
-        right: -164px;
-    }
-    
-    #dot-2-7 {
-        top: 230px;
-        left: 200px;
-    }
-    
-    #dot-2-8 {
-        top: 288px;
-        left: 390px;
-    }
-    
-    #dot-2-9 {
-        top: 370px;
-        right: -100px
-    }
-    
-    #dot-2-10 {
-        bottom: 150px;
-        left: 100px;
-    }
-    
-    #dot-2-11 {
-        bottom: 60px;
-        left: 260px;
-    }
-    
-    /*----*/
-    
-    #dot-3-1 {
-        top: 0px;
-        left: 148px;
-    }
-    
-    #dot-3-2 {
-        top: -65px;
-        left: 420px;
-    }
-    
-    #dot-3-3 {
-        top: 30px;
-        right: -130px;
-    }
-    
-    #dot-3-4 {
-        top: 180px;
-        left: 0px;
-    }
-    
-    #dot-3-5 {
-        top: 110px;
-        left: 270px;
-    }
-    
-    #dot-3-6 {
-        top: 150px;
-        right: -30px;
-    }
-    
-    #dot-3-7 {
-        top: 320px;
-        left: 150px;
-    }
-    
-    #dot-3-8 {
-        top: 258px;
-        left: 410px;
-    }
-    
-    #dot-3-9 {
-        top: 390px;
-        right: -90px
-    }
-    
-    #dot-3-10 {
-        bottom: 100px;
-        left: 80px;
-    }
-    
-    #dot-3-11 {
-        bottom: 10px;
-        left: 300px;
-    }
-    
-    /*----*/
-    
-    .small-dot {
-        width: 11px;
-        height: 11px;
-        background-color: #a5a5a5;
-        border-radius: 50%;
-        position: absolute;
-        bottom: 0;
-        left: 26px;
-        cursor: pointer;
-    }
-    
-    .small-dot-line {
-        width: 3px;
-        height: 11px;
-        background-color: #8d8d8d;
-        position: absolute;
-        bottom: 11px;
-        left: 30px;
-    }
-    
-    .dot-profile {
-        width: 260px;
-        height: 78px;
-        opacity: 0;
-        transition: 0.5s;
-    }
-    
-    .profile-img {
-        width: 63px;
-        height: 78px;
-        background-color: #cbcbcb;
-        border-radius: 10px;
-        position: relative;
-        float: left;
-        margin-left: -15px;
-        transition: 0.5s;
-    }
-    
-    .profile-img-in {
-        width: 53px;
-        height: 68px;
-        background-color: #262626;
-        border-radius: 10px;
-        position: absolute;
-        top: 5px;
-        left: 5px;
-    }
-    
-    .thumbnail-wrap {
-        width: 179px;
-        height: 78px;
-        background-color: #cbcbcb;
-        border-radius: 10px;
-        position: relative;
-        float: left;
-        margin-left: 0px;
-        transition: 0.5s;
-    }
-    
-    .thumbnail {
-        width: 53px;
-        height: 68px;
-        background-color: #4d4d4d;
-        border-radius: 10px;
-        margin-left: 5px;
-        margin-top: 5px;
-        float: left;
-    }
-    
-    /*#dot-profile-id {
-        display: block;
-    }*/ /*시험용ㅇㅇㅇㅇㅇㅇㅇㅇ*/
     
     #main-txt-tab {
         display: none;
@@ -368,7 +97,7 @@
         height: 100vh;
         background-color: /*#121212*/ #0f0f0f;
         position: absolute;
-        top: -1100px;
+        top: -1000px;
         /*top: 0;*/
         left: 0;
         z-index: 10;
