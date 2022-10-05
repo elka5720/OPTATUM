@@ -53,7 +53,7 @@
     }
     
     #header-left {
-        width: 145px;
+        width: 200px;
         height: 100px;
         position: relative;
         top: 50px;
@@ -92,55 +92,90 @@
     
     
     section {
+        height: 3465px;
+        /*height: 960px;*/
         margin-top: 140px;
+        /*background-color: lightgoldenrodyellow;*/
     }
     
-    #sc-title {
-        width: 51px;
-        height: 9px;
-        margin: 0 auto;
-    }
-    
-    #sc-title li {
-        width: 9px;
-        height: 9px;
-        border-radius: 50%;
-        background-color: #d8d8d8;
-        margin-right: 12px;
-        float: left;
-    }
-    
-    #sc-title li:last-child {
-        margin-right: 0;
-    }
-    
-    #project-wrap {
+    #sc-title, #sc-title-pc2, #sc-title-mo {
         display: none;
     }
     
-    #project-wrap-tab {
+    #sc-title-tab {
+        width: 150px;
+        height: 80px;
+        margin: 0 auto;
+    }
+    
+    #sc-title-tab li {
+        width: 60px;
+        height: 100%;
+        float: left;
+        margin-right: 30px;
+    }
+    
+    #sc-title-tab li:last-child {
+        margin-right: 0;
+    }
+    
+    .title-name-tab {
         width: 100%;
-        height: 2675px;
-        margin-top: 80px;
+        height: 30px;
+        font: 600 30px/30px 'Khand';
+        text-align: center;
+        color: #4a4a4a;
+        cursor: pointer;
+    }
+    
+    .title-name-this-tab {
+        color: #b2b2b2;
+    }/*addclass*/
+    
+    .title-dot-tab {
+        width: 9px;
+        height: 9px;
+        border-radius: 50%;
+        background-color: #4a4a4a;
+        margin: 20px auto;
+    }
+    
+    .title-dot-this-tab {
+        background-color: #b2b2b2;
+    } /*addclass*/
+    
+    .project-wrap {
+        width: 100%;
+        height: 2550px;
+        /*height: 710px;*/
+        margin-top: 70px;
+        /*background-color: lightblue;*/
     }
     
     .project-con {
         width: 100%;
         height: 320px;
+        /*background-color: cadetblue;*/
     }
     
     .project {
-        width: /*296px*/ 41.5415vw;
+        width: 50%;
         height: 320px;
+        /*margin-right: 21px;*/
         float: left;
+        /*background-color: cornflowerblue;*/
     }
     
-    .project-last {
+    .project-right {
         float: right;
     }
     
+    /*.project-last {
+        margin-right: 0;
+    }*/
+    
     .pro-img {
-        width: /*296px*/ 41.5415vw;
+        width: 96%;
         height: 220px;
         background-color: #adadad;
     }
@@ -159,6 +194,18 @@
     .pro-name span {
         font: 13px/50px '';
         color: #919191;
+    }
+    
+    #project-wrap-3d {
+        position: absolute;
+        top: 80px;
+        display: none;
+    }
+    
+    #eng {
+        font-family: 'Khand';
+        font-size: 20px;
+        color: #c6c6c6;
     }
     
     /*section ----------*/
@@ -262,8 +309,4 @@
     
     
     
-    
-    
-    
-    
-} /*interative_tab end*/
+} /*ani_tab end*/

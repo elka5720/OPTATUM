@@ -1,4 +1,4 @@
-@media all and (max-width: 1299px) and (min-width: 1000px) {
+@media all and (max-width: 999px) and (min-width: 800px) {
     
     
     /*공통영역*/
@@ -15,11 +15,11 @@
     }
     
     .container {
-        width: 930px;
+        width: 88%;
         height: 100%;
         margin: 0 auto;
         position: relative;
-        color: #d8d8d8;
+        color: #bfbfbf;
     }
     
     /*공통영역 end*/
@@ -47,168 +47,222 @@
     #menu-btn li {
         width: 100%;
         height: 10px;
-        border-top: 1px solid #c4c4c4;
+        border-top: 1px solid #434343;
         box-sizing: border-box;
         transition-duration: 0.5s;
     }
     
     #header-left {
-        width: 265px;
+        width: 200px;
         height: 100px;
         position: relative;
         top: 50px;
-        left: 85px;
+        left: 55px;
         z-index: 5;
     }
     
     #logo {
+        width: 30px;
         opacity: 0.8;
         float: left;
     }
     
     #header-left-txt {
-        font-family: 'Khand';
-        font-size: 18px;
-        padding-top: 15px;
-        padding-left: 64px;
-        color: #d8d8d8;
+        display: none;
     }
     
     #title {
         font-family: 'Khand';
-        font-size: 26px;
-        color: #d8d8d8;
+        font-size: 22px;
+        color: #434343;
+        padding-top: 40px;
+        opacity: 0.8;
     }
     
     #header-left-line {
         width: 100%;
         height: 1px;
         background-color: #4d4d4d;
-        margin-left: -4px;
+        position: absolute;
+        top: 35px;
+        left: -5px;
     }
     
     /*header ----------*/
     
     
-    section {
-        height: 2490px;
-        /*height: 960px;*/
-        margin-top: 140px;
-        /*background-color: lightgoldenrodyellow;*/
+    #section-1 {
+        width: 100%;
+        height: 100vh;
+        background-color: #626262;
+        top: -100px;
+        left: 0;
     }
     
-    #sc-title, #sc-title-tab, #sc-title-mo {
+    #main-img {
+        width: 100%;
+        height: 100vh;
+        float: left;
+        background-image: url(../img_3D_2/animation_3D_preview_2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    } /*///*/
+    
+    #arrow {
+        width: 50px;
+        height: 30px;
+        position: absolute;
+        bottom: 50px;
+        left: 50%;
+        margin-left: -25px;
+    }
+    
+    #arrow li {
+        width: 1px;
+        height: 30px;
+        background-color: #434343;
+        float: left;
+        transform: rotate(-35deg);
+        margin-left: 17px;
+    }
+    
+    #arrow li:last-child {
+        transform: rotate(35deg);
+        margin-left: 16px;
+    }
+    
+    /*section-1 ----------*/
+    
+    
+    #section-2 {
+        width: 100%;
+    }
+    
+    #info-wrap-mo {
         display: none;
     }
     
-    #sc-title-pc2 {
-        width: 150px;
-        height: 80px;
-        margin: 0 auto;
-    }
-    
-    #sc-title-pc2 li {
-        width: 60px;
-        height: 100%;
-        float: left;
-        margin-right: 30px;
-    }
-    
-    #sc-title-pc2 li:last-child {
-        margin-right: 0;
-    }
-    
-    .title-name-pc2 {
-        width: 100%;
-        height: 30px;
-        font: 600 30px/30px 'Khand';
-        text-align: center;
-        color: #4a4a4a;
-        cursor: pointer;
-    }
-    
-    .title-name-this-pc2 {
-        color: #b2b2b2;
-    }/*addclass*/
-    
-    .title-dot-pc2 {
-        width: 9px;
-        height: 9px;
-        border-radius: 50%;
-        background-color: #4a4a4a;
-        margin: 20px auto;
-    }
-    
-    .title-dot-this-pc2 {
-        background-color: #b2b2b2;
-    } /*addclass*/
-    
-    .project-wrap {
-        width: 100%;
-        height: 2550px;
-        /*height: 710px;*/
-        margin-top: 70px;
-        /*background-color: lightblue;*/
-    }
-    
-    .project-con {
-        width: 100%;
-        height: 320px;
-        /*background-color: cadetblue;*/
-    }
-    
-    .project {
-        width: 296px;
-        height: 320px;
-        margin-right: 21px;
-        float: left;
+    #info-wrap {
+        width: 680px;
+        height: 300px;
+        margin: 100px auto;
         /*background-color: cornflowerblue;*/
     }
     
-    .project-last {
+    #info-left {
+        width: 330px;
+        height: 100%;
+        float: left;
+        /*background-color: saddlebrown;*/
+    }
+    
+    #info-name {
+        width: 100%;
+        height: 50px;
+        font: 18px/50px 'Khand';
+    }
+    
+    #info-line {
+        width: 270px;
+        height: 1px;
+        background-color: /*#c1c1c1*/#4a4a4a;
+        margin-bottom: 25px;
+        margin-top: 10px;
+    }
+    
+    #info-stu {
+        width: 100%;
+        height: 30px;
+        margin-bottom: 55px;
+        font: 18px/30px 'Khand';
+    }
+    
+    #color {
+        width: 100%;
+        height: 30px;
+    }
+    
+    #color li {
+        width: 70px;
+        height: 70px;
+        border-radius: 20%;
+        margin-right: 20px;
+        float: left;
+    }
+    
+    /*/////////////////////////*/
+    #color li:nth-child(1) {
+        background-color: #615a49
+    }
+    
+    #color li:nth-child(2) {
+        border: 1px solid #4a4a4a;
+    }
+    
+    #color li:last-child {
+        border: 1px solid #4a4a4a;
         margin-right: 0;
     }
     
-    .pro-img {
-        width: 296px;
-        height: 180px;
-        background-color: #adadad;
+    #info-right {
+        width: 330px;
+        height: 100%;
+        float: right;
+        /*background-color: rebeccapurple;*/
     }
     
-    .pro-name {
+    #project-info {
         width: 100%;
-        height: 50px;
-        font: 600 17px/50px '';
-        text-align: center;
+        height: 30px;
+        font: 18px/50px 'Khand';
+        margin-bottom: 30px;
     }
     
-    .pro-name a {
-        color: #bababa;
+    #info-text-wrap {
+        width: 100%;
+        height: 200px;
+        border: 1px solid #4a4a4a; /**/
+        box-sizing: border-box;
     }
     
-    .pro-name span {
-        font: 13px/50px '';
-        color: #919191;
+    #info-text {
+        width: 300px;
+        height: 170px;
+        margin-left: 15px;
+        margin-top: 15px;
+        /*background-color: lightblue;*/
+    } /*////////////*/
+    
+    #dot {
+        width: 145px;
+        height: 13px;
+        margin: 130px auto 150px auto;
     }
     
-    #project-wrap-3d {
-        position: absolute;
-        top: 80px;
-        display: none;
+    #dot li {
+        width: 13px;
+        height: 13px;
+        background-color: #505050;
+        border-radius: 50%;
+        margin-right: 20px;
+        float: left;
     }
     
-    #eng {
-        font-family: 'Khand';
-        font-size: 20px;
-        color: #c6c6c6;
+    #dot li:last-child {
+        margin-right: 0;
     }
     
-    /*section ----------*/
+    #project-img img {
+        width: 100%;
+    } /*///*/
+    
+    /*section-2 ----------*/
     
     
     #in-footer {
         font-size: 11px;
-        margin-top: 90px;
+        padding-top: 90px; /*/////*/
         color: #464646;
         margin: 0 auto;
         text-align: center;
@@ -304,4 +358,4 @@
     
     
     
-} /*ani_pc-2 end*/
+} /*project_tab end*/

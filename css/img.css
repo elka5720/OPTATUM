@@ -4,63 +4,128 @@
     background-position: center;
 }
 
-#inter-1 {
-    background-image: url(../project/student_1/img_1/interactive_sum_1.jpg);
+#d-1 {
+    background-image: url(../project/2D_student_1/img_2D_1/animation_2D_sum_1.png);
 }
 
-#inter-2 {
-    background-image: url(../project/student_2/img_2/interactive_sum_2.png);
+#d-2 {
+    background-image: url(../project/2D_student_2/img_2D_2/animation_2D_sum_2.jpg);
 }
 
-#inter-3 {
-    background-image: url(../project/student_3/img_3/interactive_sum_3.jpg);
+#d-3 {
+    background-image: url(../project/2D_student_3/img_2D_3/animation_2D_sum_3.jpg);
 }
 
-#inter-4 {
-    background-image: url(../project/student_4/img_4/interative_sum_4.jpg);
+#d-4 {
+    /*background-image: url(../project/2D_student_4/img_2D_5/animation_2D_sum_5.png);*/
+    background-image: url(../project/2D_student_4/img_2D_5/animation_2D_preview_5.jpg);
 }
 
-#inter-5 {
-    background-image: url(../project/student_5/img_5/interactive_sum_5.png);
+#d-5 {
+    background-image: url(../project/2D_student_5/img_2D_6/animation_2D_sum_6.jpg);
 }
 
-#inter-6 {
-    background-image: url(../project/student_6/img_6/interactive_sum_6.jpg);
+#d-6 {
+    background-image: url(../project/2D_student_6/img_2D_7/animation_2D_sum_7.jpg);
 }
 
-#inter-7 {
-    background-image: url(../project/student_7/img_7/interactive_sum_7.png);
+#d-7 {
+    background-image: url(../project/2D_student_7/img_2D_8/animation_2D_sum_8.jpg);
 }
 
-#inter-8 {
-    background-image: url(../project/student_8/img_8/interactive_preview_8.jpg);
+#d-8 {
+    background-image: url(../project/2D_student_8/img_2D_9/animation_2D_sum_9.png);
 }
 
-#inter-9 {
-    background-image: url(../project/student_9/img_9/interactive_sum_9.jpg);
+#d-9 {
+    background-image: url(../project/2D_student_9/img_2D_10/animation_2D_sum_10.png);
 }
 
-#inter-10 {
-    background-image: url(../project/student_10/img_10/interactive_sum_10.jpg);
+#d-10 {
+    background-image: url(../project/2D_student_10/img_2D_11/animation_SUM_11.jpg);
 }
 
-#inter-11 {
-    /*background-image: url(../project/student_11/img_11/interactive_sum_11.jpg);*/
-    background-image: url(../project/student_6/img_6/interactive_sum_6.jpg);
+#d-11 {
+    /*background-image: url(../project/2D_student_11/img_2D_12/animation_2D_sum_12.png);*/
+    background-image: url(../project/2D_student_18/img_2D_19/animation_2D_sum_19.jpg);
 }
 
-#inter-12 {
-    background-image: url(../project/student_12/img_12/interactive_sum_12.png);
+#d-12 {
+    background-image: url(../project/2D_student_12/img_2D_13/animation_2D_sum_13.png);
 }
 
-#inter-13 {
-    background-image: url(../project/student_13/img_13/interactive_sum_13.jpg);
+#d-13 {
+    background-image: url(../project/2D_student_13/img_2D_14/animation_2D_sum_14.jpg);
 }
 
-#inter-14 {
-    background-image: url(../project/student_14/img_14/interactive_sum_14.jpg);
+#d-14 {
+    background-image: url(../project/2D_student_14/img_2D_15/animation_2D_sum_15.png);
 }
 
-#inter-15 {
-    background-image: url(../project/student_15/img_15/interactive_sum_15.jpg);
+#d-15 {
+    background-image: url(../project/2D_student_15/Img_2D_16/animation_2D_sum_16.jpg);
 }
+
+#d-16 {
+    background-image: url(../project/2D_student_16/img_2D_17/animation_2D_sum_17.jpg);
+}
+
+#d-17 {
+    background-image: url(../project/2D_student_17/img_2D_18/animation_2D_sum_18.jpg);
+}
+
+#d-18 {
+    background-image: url(../project/2D_student_18/img_2D_19/animation_2D_sum_19.jpg);
+}
+
+#d-19 {
+    background-image: url(../project/2D_student_19/img_2D_20/animation_2D_sum_20.png);
+}
+
+#d-20 {
+    background-image: url(../project/2D_student_20/img_2D_21/animation_2D_sum_21.jpg);
+}
+
+#dd-1 {
+    background-image: url(../project/3D_student_1/img_3D_2/animation_3D_sum_2.png);
+}
+
+#dd-2 {
+    background-image: url(../project/3D_student_2/img_3D_3/animation_3D_sum_3.png);
+}
+
+#dd-3 {
+    background-image: url(../project/3D_student_3/img_3D_4/animation_3D_sum_4.png);
+}
+
+#dd-4 {
+    background-image: url(../project/3D_student_4/img_3D_5/animation_3D_sum_5.jpg);
+}
+
+#dd-5 {
+    background-image: url(../project/3D_student_5/img_3D_6/animation_3D_sum_6.jpg);
+}
+
+#dd-6 {
+    background-image: url(../project/3D_student_6/img_3D_7/animation_3D_sum_7.png);
+}
+
+#dd-7 {
+    background-image: url(../project/3D_student_7/img_3D_8/animation_3D_sum_8.jpg);
+}
+
+#dd-8 {
+    background-image: url(../project/3D_student_8/img_3D_9/animation_3D_sum_9.jpg);
+}
+
+#dd-9 {
+    background-image: url(../project/3D_student_9/img_3D_10/animation_3D_preview_10.jpg);
+}
+
+
+
+
+
+
+
+

@@ -60,7 +60,6 @@
         margin-left: -100px;
         z-index: 5;
         text-align: center;
-        /*background-color: cadetblue;*/
     }
     
     #logo {
@@ -90,52 +89,85 @@
     
     
     section {
-        margin-top: 250px;
+        height: 6230px;
+        /*height: 960px;*/
+        margin-top: 270px;
+        /*background-color: lightgoldenrodyellow;*/
     }
     
-    #sc-title {
-        width: 51px;
-        height: 9px;
-        margin: 0 auto;
-    }
-    
-    #sc-title li {
-        width: 9px;
-        height: 9px;
-        border-radius: 50%;
-        background-color: #606060;
-        margin-right: 12px;
-        float: left;
-    }
-    
-    #sc-title li:last-child {
-        margin-right: 0;
-    }
-    
-    #project-wrap {
+    #sc-title, #sc-title-pc2, #sc-title-tab {
         display: none;
     }
     
-    #project-wrap-tab {
+    #sc-title-mo {
+        width: 150px;
+        height: 80px;
+        margin: 0 auto;
+        /*background-color: cadetblue;*/
+    }
+    
+    #sc-title-mo li {
+        width: 60px;
+        height: 100%;
+        float: left;
+        margin-right: 30px;
+        /*background-color: chartreuse;*/
+    }
+    
+    #sc-title-mo li:last-child {
+        margin-right: 0;
+    }
+    
+    .title-name-mo {
         width: 100%;
-        height: 4600px;
-        margin-top: 80px;
+        height: 30px;
+        font: 600 24px/30px 'Khand';
+        text-align: center;
+        color: #4a4a4a;
+        cursor: pointer;
+    }
+    
+    .title-name-this-mo {
+        color: #a8a8a8;
+    }/*addclass*/
+    
+    .title-dot-mo {
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background-color: #4a4a4a;
+        margin: 20px auto;
+    }
+    
+    .title-dot-this-mo {
+        background-color: #a8a8a8;
+    } /*addclass*/
+    
+    .project-wrap {
+        width: 100%;
+        height: 2550px;
+        /*height: 710px;*/
+        margin-top: 50px;
+        /*background-color: lightblue;*/
     }
     
     .project-con {
         width: 100%;
         height: 300px;
+        /*background-color: cadetblue;*/
     }
     
     .project {
         width: 100%;
         height: 300px;
+        /*margin-right: 21px;*/
         float: left;
+        /*background-color: cornflowerblue;*/
     }
     
-    .project-last {
-        float: right;
-    }
+    /*.project-last {
+        margin-right: 0;
+    }*/
     
     .pro-img {
         width: 100%;
@@ -155,11 +187,35 @@
     }
     
     .pro-name span {
-        font: 13px/50px '';
+        font: 12px/50px '';
         color: #747474;
     }
     
+    #project-wrap-3d {
+        position: absolute;
+        top: 80px;
+        display: none;
+    }
+    
+    #eng {
+        font-family: 'Khand';
+        font-size: 18px;
+        color: #c6c6c6;
+    }
+    
     /*section ----------*/
+    
+    
+    #in-footer {
+        font-size: 11px;
+        margin-top: 90px;
+        color: #464646;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    /*footer ----------*/
     
     
     #in-footer {
@@ -257,8 +313,4 @@
     
     
     
-    
-    
-    
-    
-} /*interative_mo end*/
+} /*ani_mo end*/

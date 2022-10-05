@@ -1,4 +1,4 @@
-@media all and (min-width: 1300px) {
+@media all and (max-width: 1299px) and (min-width: 1000px) {
     
     
     /*공통영역*/
@@ -15,11 +15,11 @@
     }
     
     .container {
-        width: 1200px;
+        width: 88%;
         height: 100%;
         margin: 0 auto;
         position: relative;
-        color: #d8d8d8;
+        color: #bfbfbf;
     }
     
     /*공통영역 end*/
@@ -90,123 +90,178 @@
     /*header ----------*/
     
     
-    section {
-        height: 2870px;
-        /*height: 1400px;*/
-        margin-top: 140px;
-        /*background-color: lightgoldenrodyellow;*/
+    #section-1 {
+        width: 100%;
+        height: 100vh;
+        background-color: #626262;
+        top: -100px;
+        left: 0;
     }
     
-    #sc-title {
-        width: 150px;
-        height: 80px;
-        margin: 0 auto;
+    #main-img {
+        width: 100%;
+        height: 100vh;
+        float: left;
+        background-image: url(../img_2D_1/animation_2D_preview_1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    } /*///*/
+    
+    #arrow {
+        width: 50px;
+        height: 30px;
+        position: absolute;
+        bottom: 50px;
+        left: 50%;
+        margin-left: -25px;
     }
     
-    #sc-title-pc2, #sc-title-tab, #sc-title-mo {
+    #arrow li {
+        width: 1px;
+        height: 30px;
+        background-color: #b2b2b2;
+        float: left;
+        transform: rotate(-35deg);
+        margin-left: 17px;
+    }
+    
+    #arrow li:last-child {
+        transform: rotate(35deg);
+        margin-left: 16px;
+    }
+    
+    /*section-1 ----------*/
+    
+    
+    #section-2 {
+        width: 100%;
+    }
+    
+    #info-wrap-mo {
         display: none;
     }
     
-    #sc-title li {
-        width: 60px;
+    #info-wrap {
+        width: 680px;
+        height: 300px;
+        margin: 100px auto;
+        /*background-color: cornflowerblue;*/
+    }
+    
+    #info-left {
+        width: 330px;
         height: 100%;
         float: left;
-        margin-right: 30px;
+        /*background-color: saddlebrown;*/
     }
     
-    #sc-title li:last-child {
-        margin-right: 0;
+    #info-name {
+        width: 100%;
+        height: 50px;
+        font: 18px/50px 'Khand';
     }
     
-    .title-name {
+    #info-line {
+        width: 270px;
+        height: 1px;
+        background-color: /*#c1c1c1*/#4a4a4a;
+        margin-bottom: 25px;
+        margin-top: 10px;
+    }
+    
+    #info-stu {
         width: 100%;
         height: 30px;
-        font: 600 30px/30px 'Khand';
-        text-align: center;
-        color: #4a4a4a;
-        cursor: pointer;
+        margin-bottom: 55px;
+        font: 18px/30px 'Khand';
     }
     
-    .title-name-this {
-        color: #b2b2b2;
-    }/*addclass*/
-    
-    .title-dot {
-        width: 9px;
-        height: 9px;
-        border-radius: 50%;
-        background-color: #4a4a4a;
-        margin: 20px auto;
-    }
-    
-    .title-dot-this {
-        background-color: #b2b2b2;
-    } /*addclass*/
-    
-    .project-wrap {
+    #color {
         width: 100%;
-        height: 2900px;
-        /*height: 1060px;*/
-        margin-top: 70px;
-        /*background-color: lightblue;*/
+        height: 30px;
     }
     
-    .project-con {
-        width: 100%;
-        height: 370px;
-    }
-    
-    .project {
-        width: 366px;
-        height: 370px;
-        margin-right: 50px;
+    #color li {
+        width: 70px;
+        height: 70px;
+        border-radius: 20%;
+        margin-right: 20px;
         float: left;
     }
     
-    .project-last {
+    /*/////////////////////////*/
+    #color li:nth-child(1) {
+        background-color: #50c3d0;
+    }
+    
+    #color li:nth-child(2) {
+        background-color: #891515;
+    }
+    
+    #color li:last-child {
+        background-color: #f0b519;
         margin-right: 0;
     }
     
-    .pro-img {
-        width: 366px;
-        height: 220px;
-        background-color: #adadad;
+    #info-right {
+        width: 330px;
+        height: 100%;
+        float: right;
+        /*background-color: rebeccapurple;*/
     }
     
-    .pro-name {
+    #project-info {
         width: 100%;
-        height: 50px;
-        font: 600 17px/50px '';
-        text-align: center;
+        height: 30px;
+        font: 18px/50px 'Khand';
+        margin-bottom: 30px;
     }
     
-    .pro-name a {
-        color: #bababa;
+    #info-text-wrap {
+        width: 100%;
+        height: 200px;
+        border: 1px solid #4a4a4a; /**/
+        box-sizing: border-box;
     }
     
-    .pro-name span {
-        font: 13px/50px '';
-        color: #919191;
+    #info-text {
+        width: 300px;
+        height: 170px;
+        margin-left: 15px;
+        margin-top: 15px;
+        /*background-color: lightblue;*/
+    } /*////////////*/
+    
+    #dot {
+        width: 145px;
+        height: 13px;
+        margin: 130px auto 150px auto;
     }
     
-    #project-wrap-3d {
-        position: absolute;
-        top: 80px;
-        display: none;
+    #dot li {
+        width: 13px;
+        height: 13px;
+        background-color: #505050;
+        border-radius: 50%;
+        margin-right: 20px;
+        float: left;
     }
     
-    #eng {
-        font-family: 'Khand';
-        font-size: 20px;
-        color: #c6c6c6;
+    #dot li:last-child {
+        margin-right: 0;
     }
     
-    /*section ----------*/
+    #project-img img {
+        width: 100%;
+    } /*///*/
+    
+    /*section-2 ----------*/
     
     
     #in-footer {
         font-size: 11px;
-        margin-top: 90px;
+        padding-top: 90px; /*/////*/
         color: #464646;
         margin: 0 auto;
         text-align: center;
@@ -229,11 +284,11 @@
     
     #in-menu-wrap {
         width: 500px;
-        height: 700px;
+        height: 600px;
         position: absolute;
         top: 50%;
         left: 50%;
-        margin-top: -310px;
+        margin-top: -260px;
         margin-left: -250px;
         text-align: center;
         font-family: 'Khand';
@@ -253,22 +308,22 @@
     
     .menu-title {
         width: 200px;
-        height: 80px;
-        font: 800 48px/80px 'Khand';
+        height: 65px;
+        font: 800 40px/65px 'Khand';
         margin: 0 auto;
     }
     
     #menu-pro {
         width: 100%;
-        height: 120px;
-        font: 800 95px/120px 'Khand';
-        margin-bottom: 20px;
+        height: 110px;
+        font: 800 82px/110px 'Khand';
+        margin-bottom: 5px;
     }
     
     .menu-project {
         width: 250px;
-        height: 56px;
-        font: 23px/56px 'Khand';
+        height: 46px;
+        font: 21px/46px 'Khand';
         margin: 0 auto;
     }
     
@@ -302,4 +357,4 @@
     
     
     
-} /*ani_pc end*/
+} /*project_pc-2 end*/
