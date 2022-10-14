@@ -230,15 +230,15 @@
     }
     
     #video {
-        width: 392px;
-        height: 220.5px;
-        margin: 0 auto 150px auto;
+        width: 336px;
+        height: 189px;
+        margin: 0 auto 70px auto;
         background-color: #000000;
     }
     
     #play {
-        width: 392px;
-        height: 220.5px;
+        width: 336px;
+        height: 189px;
     }
     
     #project-img img {
