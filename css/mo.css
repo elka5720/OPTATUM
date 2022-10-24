@@ -70,7 +70,7 @@
         width: 100%;
         height: 100vh;
         float: left;
-        background-image: url(../img_2D_2/animation_2D_previewM_2.jpg);
+        background-image: url(../img_1/web_previewM_1.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -109,6 +109,7 @@
     
     #section-2 {
         width: 100%;
+        /**/
     }
     
     #info-wrap {
@@ -134,11 +135,12 @@
         height: 50px;
         font: 16px/50px 'Khand';
     }
+    /*//한글//*/
     
     #info-line {
         width: 100%;
         height: 1px;
-        background-color: /*#c1c1c1*/#4a4a4a;
+        background-color: /*#c1c1c1*/#4a4a4a; /**/
         margin-bottom: 25px;
         margin-top: 10px;
     }
@@ -161,6 +163,7 @@
         border-radius: 20%;
         margin-right: 20px;
         float: left;
+        background-color: #4b4b4b;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -168,17 +171,17 @@
     
     /*/////////////////////////*/
     #color li:nth-child(1) {
-        background-image: url(../../../../icon/procre.png);
+        background-image: url(../../../../icon/ps.png);
     }
     
     #color li:nth-child(2) {
-        background-image: url(../../../../icon/rough.png);
-        background-size: 95%;
+        background-image: url(../../../../icon/csd.png);
     }
     
     #color li:last-child {
-        border: 1px solid #4a4a4a;
+        background-image: url(../../../../icon/atom2.png);
         margin-right: 0;
+        background-size: 300%;
     }
     
     #info-right {
@@ -229,16 +232,25 @@
         margin-right: 0;
     }
     
-    #video {
-        width: 308px;
-        height: 173.25px;
-        margin: 0 auto 70px auto;
-        background-color: #000000;
+    #web-url-wrap {
+        width: 100%;
+        height: 70px;
     }
     
-    #play {
-        width: 308px;
-        height: 173.25px;
+    #web-url {
+        width: 100%;
+        height: 70px;
+    }
+    
+    #web-url a {
+        text-align: center;
+        font-size: 12px;
+        color: #cecece;
+        text-decoration: underline;
+    }
+    
+    #web-url a:visited {
+        color: #696969;
     }
     
     #project-img img {
