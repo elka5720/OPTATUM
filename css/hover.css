@@ -1,0 +1,15 @@
+#menu-wrap li a:hover {
+    color: #a1af1a;
+    border-bottom: 2px solid #a1af1a;
+    padding-bottom: 5px;
+    transition-duration: 0.1s;
+}
+
+#sc4-button:hover {
+    border: 1px solid #6d6d6d;
+}
+
+.sc6-con:hover .sc6-box img {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
